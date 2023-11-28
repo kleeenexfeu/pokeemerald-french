@@ -42,14 +42,14 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: pokeemerald_french
-          path: pokeemerald.gba
+          path: pokeemerald_fr.gba
           
       - uses: actions/upload-artifact@v2
         with:
           name: pokeemerald_elf_french
-          path: pokeemerald.elf
+          path: pokeemerald_fr.elf
           
       - uses: actions/upload-artifact@v2
         with:
           name: pokeemerald_map_french
-          path: pokeemerald.map
+          path: pokeemerald_fr.map
